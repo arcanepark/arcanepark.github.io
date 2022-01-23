@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcane Park</title>
+    <link rel = "icon" href = "Images/Arcane_Park_2.png">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<style>.scroll-left { 
+
+  height: 50px;	 
+  overflow: hidden; 
+  position: relative; 
+  background: #b8e2f5; 
+  color: #000000; 
+  border: 1px solid #b8e2f5; 
+  
+  } 
+  
+  .scroll-left p { 
+  
+  position: absolute; 
+  width: 100%; 
+  height: 100%; 
+  margin: 0; 
+  line-height: 50px; 
+  text-align: center; 
+  
+  /* Starting position */ 
+  
+  -moz-transform:translateX(100%); 
+  -webkit-transform:translateX(100%);	 
+  transform:translateX(100%); 
+  
+  /* Apply animation to this element */	 
+  -moz-animation: scroll-left 25s linear infinite; 
+  -webkit-animation: scroll-left 25s linear infinite; 
+  animation: scroll-left 25s linear infinite; 
+  
+  } 
+  
+  /* Move it (define the animation) */ 
+  
+  @-moz-keyframes scroll-left { 
+  
+  0%   { -moz-transform: translateX(100%); }  
+  100% { -moz-transform: translateX(-100%); } 
+  
+  } 
+  
+  @-webkit-keyframes scroll-left { 
+  
+  0%   { -webkit-transform: translateX(100%); } 
+  100% { -webkit-transform: translateX(-100%); } 
+  
+  } 
+  
+  @keyframes scroll-left { 
+  
+  0%   {  
+  
+  -moz-transform: translateX(100%); 
+  -webkit-transform: translateX(100%); 
+  transform: translateX(100%); 		 
+  
+  } 
+  
+  100% {  
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%); 
+  transform: translateX(-100%);  
+  } 
+  
+  } </style>
+  
+  <div class="Logo"><a href="https://www.google.com/">
+    <img src="Images/Arcane_Park_5.svg" alt=""
+    width="150"
+    height="150"
+    >
+  </a></div>
+
+  <div class="scroll-left"> 
+
+    <p>Chinese New Year Sale!!!!! Flat 30% off on selected products!!!!!</p> 
+    
+  </div> 
+
+  <div class="searchBar">
+    <input type="text" placeholder="Search..." name="Search" id="">
+  </div>
+  <button class="LoginBtn"
+        type="button">
+    Login
+</button>
+
+
+  
+<body>
+
+  <!-- Slideshows of Theme Park Images -->
+  <div class="slideshow-container">
+  <center>
+
+ <div class="mySlides fade" >
+    <img src="Images\Slideshow1.jpg" width="1250" height="500">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="Images\Slideshow2.jpg" width="1250" height="500">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="Images\Slideshow3.jpg" width="1250" height="500">
+  </div>
+  </center>
+ </div>
+ 
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>   
+  </div>
+  <br>
+  <div class="page">
+    <link rel="stylesheet" href="tabs2.css">
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  </div>
+<!-- Tab links -->
+ 
+  <div class="tab">
+
+  <button class="tablinks" href ="Rideinfo.html">Rides</button>
+  <button class="tablinks">Tickets </button>
+  <button class="tablinks" href= "giftshop.html">Gift shop</button>
+  <button class="tablinks">Help</button>
+  <button class="tablinks">Book Accomodations</button>
+
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+
+   <div class="Tickets">
+     <br/>
+    <h1> Tickets information</h1>
+    <p> Adult pricing:$10 per pax</p>
+    <p>Children pricing:$5 per pax</p>
+    <br/>
+
+</div>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+    
+    
+<div class = "hotel">
+        <div class = "hotelImage">
+            <img src="Images\hotel.jpg" width="1000" height="750">
+        </div>
+         <div class="hotelText">
+    <h1 style = "font-size: 50px"> ACCOMODATIONS </h1>
+    <p>Book the perfect overnight stay with us! All bookings include:</p>
+    <ul>             
+    <li>An overnight stay in our special-themed Arcane Hotels!</li>
+    <li>Free Park Entry for the days you stay with us</li>
+    <li>Priority queue for rides on the days you stay overnight</li>
+    <li>A breakfast buffet in the mornings</li>
+    <li>Free Wifi</li>
+    </ul>   
+    <button class="InfoBtn"
+        type="button">
+    Plan your trip now!
+    </button>
+    </div> 
+    
+        
+</div>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+        
+   <div class = "history">
+        <div class = "historyImage">
+            <img src="Images\infoOnPark.jpg" width="1000" height="750">
+        </div>
+         <div class="historyText">
+    <h1 style = "font-size: 50px"> AN EXPERIENCE YOU CANNOT AFFORD TO MISS </h1>
+    <p>A special Theme Park that features many rides, attractions for all ages. Take a dip at our Arcane Water park or ride the Ferris Wheel at night to capture the perfect moments with the breathtaking scenery. Thrill seekers can ride our themed roller coaster to plunge headlong from a 50 meter drop or encounter an all-new kind of experience with our 3D Virtual Reality ride! Regardless, our theme park has many rides for everyone so book your tickets now and come on down to have the adventure of your lifetime!</p>
+    <button class="InfoBtn"
+        type="button">
+    Purchase your Tickets now!
+    </button>
+    </div>
+    
+
+    
+</div>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+    
+    <div class="popup">
+        <button id="close">&times;</button>
+        <h2>COVID 19 REGULATIONS</h2>
+        <p>
+            Due to COVID 19, please adhere to the regulations the government has set up. For more information, please visit <a href="https://www.moh.gov.sg/covid-19-phase-advisory">www.moh.gov.sg/covid-19-phase-advisory</a>
+        </p>
+        
+    
+    
+</div>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+    
+  <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 4 seconds
+  }
+  </script>
+    
+ 
+    <script type="text/javascript">
+     window.addEventListener("load", function(){
+     setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+           },
+           1000 
+           )
+      });
+
+    document.querySelector("#close").addEventListener("click", function(){
+       document.querySelector(".popup").style.display = "none";
+    });
+
+  </script>
+
+
+
+
+
+
+
+
+  <footer>
+      <p>Contact us: +65 62647834 or <a href="contactus@arcanepark.com">contactus@arcanepark.com</a></p>
+    <p>Prices, availability of attractions, operating schedule and park policies are subject to change without notice. Processing fees apply to online orders.
+© 2021 Arcane Park Entertainment Corporation. All Rights Reserved. Terms and Conditions apply <a href="https://www.termsandconditionsgenerator.com/live.php?token=UmCWnEJkHwqSVAcWycxcZzuBUYaeW0TZ">Terms and Conditions</a></p>
+  </footer>
+
+</body>
+<table>
+</html>

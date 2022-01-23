@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gift Shop</title>
+
+    <link rel="stylesheet" href="giftshopcss.css" type="text/css"/>
+      
+  </head>
+  <body>
+    <br/>
+    <br/>
+    <br/>
+    <div class="home">
+      <br/>
+      <button class="homelinks" onclick="openCity(event, 'Home')">Home</button>
+      <br/>
+    </div>
+    <main class="container">
+      <div>
+        <center>
+          <div class="Logo"><a href="https://www.google.com/">
+            <img src="Images/Arcane Park.png" alt=""
+            width="150"
+            height="150"
+            >
+          </a></div>
+          <h2>Giftshop</h2>
+          <h1>Apparels</h1>
+          <br/>
+          <br/>
+          <br/>
+            <section>
+              <img class="img-thumbnail" id="Hoodie" src="Images/MensHoodieBlack.png" alt="Men's Hoodie"/>
+              <p>Arcane Men's Hoodie</p>
+              <p>Size: XS, S, M, L, XL, XXL</p>
+              <p>Colours:
+                 <span onclick="document.getElementById('Hoodie').src='Images/MensHoodieBlack.png'">Black</span>
+                 <span onclick="document.getElementById('Hoodie').src='Images/MensHoodieHeatherDenim.png'">, Heather Denim</span>
+                 <span onclick="document.getElementById('Hoodie').src='Images/MensHoodieNavy.png'">, Navy,</span>
+                 <br><span style="margin-left:4em" onclick="document.getElementById('Hoodie').src='Images/MensHoodieOliveGreen.png'">Olive Green</span>
+                 <span onclick="document.getElementById('Hoodie').src='Images/MensHoodieRed.png'">, Red</span>
+                 <span onclick="document.getElementById('Hoodie').src='Images/MensHoodieWhite.png'">, White</span>
+               </p>
+              <p>Price: $25 including GST</p>
+            </section>
+
+
+            <section>
+              <img class="img-thumbnail" id="WomensHoodie" src="Images/WomensHoodieBlack.png" alt="Women's Hoodie"/>
+              <p>Arcane Women's Hoodie</p>
+              <p>Size: XS, S, M, L, XL, XXL</p>
+              <p>Colours:
+                 <span onclick="document.getElementById('WomensHoodie').src='Images/WomensHoodieBlack.png'">Black</span>
+                 <span onclick="document.getElementById('WomensHoodie').src='Images/WomensHoodieWhite.png'">, White</span>
+                 <br><span style="margin-left:4em"></span>
+               </p>
+              <p>Price: $29 including GST</p>
+            </section>
+
+             
+
+            <section>
+              <img class="img-thumbnail" id="Shirt" src="Images/ShirtBlack.png" alt="Unisex Jersey T-Shirt"/>
+              <p>Arcane Unisex Jersey T-Shirt</p>
+              <p>Size: XS, S, M, L, XL, XXL</p>
+              <p>Colours:
+                 <span onclick="document.getElementById('Shirt').src='Images/ShirtBlack.png'">Black</span>
+                 <span onclick="document.getElementById('Shirt').src='Images/ShirtGrey.png'">, Grey</span>
+                 <span onclick="document.getElementById('Shirt').src='Images/ShirtPink.png'">, Pink</span>
+                 <span onclick="document.getElementById('Shirt').src='Images/ShirtRed.png'">, Red</span>
+                 <span onclick="document.getElementById('Shirt').src='Images/ShirtWhite.png'">, White</span>
+                 <br><span style="margin-left:4em"></span>
+               </p>
+              <p>Price: $10 including GST</p>
+            </section>
+
+            <section class="Checkout">
+              <h1>In your cart</h1>
+              <br/>
+              <p>Your cart is empty</p>
+              <br/>
+              <h3>Total:</h3>
+              <button class="Checkoutlink" onclick="openCity(event, 'Checkout')">Checkout</button>
+              <br/>
+            </section>
+            <br/>
+            <br/>
+            <br/>
+            <section>
+              <img class="img-thumbnail" id="BabyBodysuit" src="Images/BabyBodysuitPink.png" alt="Baby Bodysuit"/>
+              <p>Arcane Baby Bodysuit</p>
+              <p>Size: S, M, L</p>
+              <p>Colours:
+                 <span onclick="document.getElementById('BabyBodysuit').src='Images/BabyBodysuitGreen.png'">Green</span>
+                 <span onclick="document.getElementById('BabyBodysuit').src='Images/BabyBodysuitPink.png'">, Pink</span>
+                 <span onclick="document.getElementById('BabyBodysuit').src='Images/BabyBodysuitYellow.png'">, Yellow</span>
+                 <br><span style="margin-left:4em"></span>
+                </p>
+              <p>Price: $7 including GST</p>
+              </section>
+
+
+
+            <section>
+            <img class="img-thumbnail" id="BabyCap" src="Images/BabyCapPink.png" alt="Baby Cap"/>
+            <p>Arcane Baby Cap</p>
+            <br>
+            <p>Colours:
+              <span onclick="document.getElementById('BabyCap').src='Images/BabyCapBlack.png'">Black</span>
+              <span onclick="document.getElementById('BabyCap').src='Images/BabyCapPink.png'">, Pink</span>
+              <span onclick="document.getElementById('BabyCap').src='Images/BabyCapWhite.png'">, White</span>
+              <br><span style="margin-left:4em"> </span>
+             </p>
+            <p>Price: $5 including GST</p>
+            </section>
+
+
+            <section>
+                <img class="img-thumbnail" id="LoungeWear" src="Images/LoungeWearBlack.png" alt="Lounge Wear"/>
+                <p>Arcane Lounge Wear</p>
+                <p>Size: XS, S, M, L, XL, XXL</p>
+                <p>Colours:
+                   <span onclick="document.getElementById('LoungeWear').src='Images/LoungeWearBlack.png'">Black</span>
+                   <span onclick="document.getElementById('LoungeWear').src='Images/LoungeWearBrown.png'">, Brown</span>
+                   <br><span style="margin-left:4em"></span>
+                 </p>
+                <p>Price: $35 including GST</p>
+            </section>
+
+
+            <br/>
+            <br/>
+            <br/>
+          <h1>Souvenirs</h1>
+          <br/>
+          <br/>
+          <br/>
+            <section>
+                <img class="img-thumbnail" src="Images/santa sock.png" alt="Santa Sock"/>
+                <p>Arcane's Santa Socks</p>
+                <p>Price: $10 including GST</p>
+              </section>
+            <section>
+                <img class="img-thumbnail" src="Images/phone case.png" alt="Phone Case"/>
+                <p>Arcane Phone Case</p>
+                <p>Price: $10 including GST</p>
+              </section>
+            <section>
+                <img class="img-thumbnail"src="Images/santa cap.png" alt="Santa Hat"/>
+                <p>Arcane's Santa Hat</p>
+                <p>Price: $10 including GST</p>
+              </section>
+            <section>
+                <img class="img-thumbnail" src="Images/mug.png" alt="Mug"/>
+                <p>Arcane's Mug</p>
+                <p>Price: $15 including GST</p>
+              </section>
+            <section>
+                <img class="img-thumbnail" src="Images/socks.png" alt="Arcane Socks"/>
+                <p>Arcane socks</p>
+                <p>Price: $5 including GST</p>
+              </section>
+            <section>
+                <img class="img-thumbnail" src="Images/travel mug.png" alt="Santa Sock"/>
+                <p>Arcane Travel Mug</p>
+                <p>Price: $17 including GST</p>
+              </section>
+            <section>
+                <img class="img-thumbnail" src="Images/mouse pad.png" alt="Mouse Pad"/>
+                <p>Arcane Mouse Pad</p>
+                <p>Price: $10 including GST</p>
+              </section>
+            <section>
+                <img class="img-thumbnail" src="Images/mask.png" alt="Mask"/>
+                <p>Arcane Mask</p>
+                <p>Price: $9 including GST</p>
+              </section>
+            <section>
+                <img class="img-thumbnail"src="Images/square magnet.png" alt="Magnet"/>
+                <p>Arcane's Square Magnet</p>
+                <p>Price: $3 including GST</p>
+              </section>
+            <section>
+                <img class="img-thumbnail" src="Images/pouch.png" alt="Pouch"/>
+                <p>Arcane Pouch</p>
+                <p>Price: $4 including GST</p>
+              </section>
+            <section>
+                <img class="img-thumbnail" src="Images/charm.png" alt="Charm"/>
+                <p>Arcane Charm</p>
+                <p>Price: $12 including GST</p>
+              </section>
+            <section>
+                <img class="img-thumbnail" src="Images/bracelet.png" alt="Bracelet"/>
+                <p>Arcane Bracelet</p>
+                <p>Price: $13 including GST</p>
+              </section>
+            <section>
+                <img class="img-thumbnail" src="Images/jewellery.png" alt="Necklace"/>
+                <img class="img-thumbnail" src="Images/jewellery (2).png" alt="Necklace"/>
+                <p>Arcane Necklace</p>
+                <p>Price: $15 including GST</p>
+              </section>
+            </center>
+        </div>
+
+
+</main>
+
+
+<script>
+function myFunction() {
+  document.getElementById("blue").style.display = "none";
+  document.getElementById("blackhoodie").style.display = "block";
+}
+</script>
+
+
+
+
+  </body>
+</html>
